@@ -11,8 +11,6 @@
     display: table;
 }
 
-
-
 /* header */
 header {
     height: 100px;
@@ -21,9 +19,38 @@ header {
 
 .jumbotron {
     height: 300px;
+    margin-bottom: 20px;
 }
 
-/* ***** debug ***** */
+/* ****** main ***** */
+main {
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.main-top {
+    margin-bottom: 20px;
+}
+
+aside, .main-central {
+    margin-right: 2%;
+}
+
+aside, .main-central, .widget {
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside, .widget {
+    width: 20%;    
+}
+
+.main-central {
+    width: 56%;
+}
+
+
+/* ***** debug header ***** */
 
 .debug header {
     background-color: violet;
@@ -31,4 +58,17 @@ header {
 
 .debug .jumbotron {
     background-color: rgb(255, 230, 0);
+}
+
+/* ***** debug main ***** */
+.debug .main-top, .debug aside, .debug .main-central, .debug .widget {
+    background-color: lightskyblue;
+}
+
+.debug aside, .debug .main-central, .debug .widget {
+    height: 400px;
+}
+
+.debug .main-top {
+    height: 80px;
 }
