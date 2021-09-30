@@ -1,6 +1,34 @@
+/* ***** commons ***** */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+/* header */
+header {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    height: 300px;
+}
+
+/* ***** debug ***** */
+
+.debug header {
+    background-color: violet;
+}
+
+.debug .jumbotron {
+    background-color: rgb(255, 230, 0);
+}
