@@ -49,6 +49,13 @@ aside, .widget {
     width: 56%;
 }
 
+/* ***** footer ***** */
+
+footer {
+    height: 60px;
+}
+
+
 
 /* ***** debug header ***** */
 
@@ -71,4 +78,9 @@ aside, .widget {
 
 .debug .main-top {
     height: 80px;
+}
+
+/* debug footer */
+.debug footer {
+    background-color: purple;
 }
