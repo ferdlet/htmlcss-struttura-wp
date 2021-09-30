@@ -11,6 +11,14 @@
     display: table;
 }
 
+body {
+    padding: 20px 50px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
 /* header */
 header {
     height: 100px;
